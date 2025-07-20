@@ -12,4 +12,6 @@ El módulo tiene 4 láseres que representan cada una de las cuerdas de un bajo, 
 
 Este proyecto busca construir un instrumento digital experimental, donde se tienen unos módulos láser económicos simulan las cuerdas de un bajo eléctrico. Cuando una persona interrumpe uno de estos rayos láser con la mano, se genera una señal que será interpretada como si se hubiese pulsado una cuerda, activando una respuesta digital.
 
+En el archivo comprimido "femtoriiscvV2.tar.gz" se tiene el programa funcional en el cual se recibe la señal de los modulos fotoresistores que simula el toque de una cuerda, que en este caso se imprime desde la consola como un numero decimal de 0 a 15. Falta implementar la comunicacion por el protocolo OSC para enviar los datos de las cuerdas a chunk y que por alli mismo se programe la nota, por ahora aleatoria ya que no conocemos si existe alguna libreria de sonidos en chunk en la cual hallan sonidos de bajo.
+
 
